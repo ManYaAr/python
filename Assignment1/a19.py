@@ -1,3 +1,6 @@
 a=input("enter the string:")
 p='''!@#$%^&*(){}:"<>?_-~'''
-for p in a:
+for i in a:
+  if i in p:
+    a=a.replace(i,"")
+print(a)
